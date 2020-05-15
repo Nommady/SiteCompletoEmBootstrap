@@ -1,0 +1,51 @@
+.bg-top{
+    background-color: #373738;;
+}
+.btn-contact{
+    border: 2px solid #fff;
+    background: none;
+    position: relative;
+    color: #fff;
+    border-radius: 10px;
+    height: 100%;
+}
+.btn-contact:hover{
+    color: #373738;
+    background-color: #fff;
+    border-color: #373738;
+    transition:  all .20s ease-in-out;
+    -moz-transition: all .20s ease-in-out;
+    -webkit-transition: all .20s ease-in-out;
+}
+.underline{
+    content:  "";
+    border-top: 2px solid #373738 ;
+    width: 70px;
+    display: block;
+    margin-bottom: 8px;
+    margin: 0 auto;
+}
+.bg-parallax{
+    background: url(../img/about.jpg) fixed;
+    position: relative;
+}
+.bg-footer{
+    background-color: #373738;
+}
+.bg-footer ul {
+    -webkit-padding-start: 0;
+}
+.bg-footer ul li{
+    list-style: none;
+}
+.bg-footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.bg-card-rodape{
+    background-color: #e2e2e2;
+}
+.bg-card-rodape a{
+    text-decoration: none;
+    color: #373738;
+}
